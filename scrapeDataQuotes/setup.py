@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='scrapeDataQuotes',
-    version='0.0.3',
+    version='0.0.5',
     description='HMTV live news scraping',
     author= 'Phani Siginamsetty',
     # url = 'https://github.com/funnyPhani/Test_repo_rlms',
