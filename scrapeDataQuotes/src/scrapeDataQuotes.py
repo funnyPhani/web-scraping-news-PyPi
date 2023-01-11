@@ -52,7 +52,7 @@ def scrape_data():
     df = pd.DataFrame([tit,des,Aurl,img_url,img_cap])
     df = df.T
     df.columns = ["Short","Long","Url","Image_url","Image_cap"]
-    os.makedirs("Hmtv_Data",exist_ok=True)
-    df.to_excel(f"Hmtv_data/{choice}.xlsx",index = False)
-    print(f"Hmtv_data/{choice}.xlsx data collected..!")
+#     os.makedirs("Hmtv_Data",exist_ok=True)
+    df.to_excel(f"{choice}.xlsx",index = False)
+    print(f"{choice}.xlsx data collected..!")
 # scrape_data()
